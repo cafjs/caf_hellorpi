@@ -1,9 +1,9 @@
 # VERSION 0.1
 # DOCKER-VERSION  1.7.0
-# AUTHOR:         
+# AUTHOR:
 # DESCRIPTION:    Cloud Assistants application hellorpi
-# TO_BUILD:        cafjs mkImage . gcr.io/cafjs-k8/<user>-hellorpi
-# TO_RUN:         cafjs run --appImage gcr.io/cafjs-k8/<user>-hellorpi hellorpi
+# TO_BUILD:        cafjs mkImage . gcr.io/cafjs-k8/root-hellorpi
+# TO_RUN:         cafjs run --appImage gcr.io/cafjs-k8/root-hellorpi hellorpi
 
 FROM node:12
 
