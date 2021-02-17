@@ -1,0 +1,16 @@
+{
+  "name": "caf_iot_hellorpi",
+  "description": "Cloud Assistants IoT example (Device)",
+  "version": "0.4.0",
+  "author": "",
+  "dependencies": {
+      "caf_iot" : "^0.4.0",
+      "caf_rpi_gpio" : "^0.4.0"
+   },
+    "scripts": {
+       "start" : "node ./index.js",
+        "build": "echo done"
+    },
+   "main": "index",
+  "engines": { "node": ">= 10.0.0" }
+}
