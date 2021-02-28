@@ -5,7 +5,7 @@
 # TO_BUILD:        cafjs mkImage . gcr.io/cafjs-k8/root-hellorpi
 # TO_RUN:         cafjs run --appImage gcr.io/cafjs-k8/root-hellorpi hellorpi
 
-FROM node:12
+FROM node:14
 
 EXPOSE 3000
 
